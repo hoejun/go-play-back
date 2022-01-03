@@ -6,7 +6,8 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-
+//익스프레스 sdf
+var app = express();
 var app = express();
   
 // view engine setup
