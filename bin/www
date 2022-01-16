@@ -4,11 +4,12 @@
  * Module dependencies.
  */
 
-const app = require('../app'); 
+import app from '../src/app';
+// const app = require('../app');
 const port = process.env.PORT || '8080';
 
-app.listen(port, ()=>{  
-  console.log('Server on Port 8080')
+app.listen(port, () => {
+  console.log('Server on Port 8080');
 });
 // const debug = require('debug')('go-play-back:server');
 // const http = require('http');
